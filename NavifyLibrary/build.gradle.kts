@@ -50,7 +50,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.b3ddodev"
                 artifactId = "Navify"
-                version = "1.0.1-0103-rls"
+                version = "1.0.2-0103-rls"
             }
         }
     }
