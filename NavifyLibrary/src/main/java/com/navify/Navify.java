@@ -1680,7 +1680,7 @@ public class Navify extends View {
     /**
      * Gets the color of the unselected item icons.
      */
-    public int getItemUnselectedIconColor() {
+    public int getItemUnSelectedIconColor() {
         return mItemUnSelectedIconColor;
     }
 
@@ -1689,7 +1689,7 @@ public class Navify extends View {
      *
      * @param sItemUnselectedIconColor Color to set
      */
-    public void setItemUnselectedIconColor(int sItemUnselectedIconColor) {
+    public void setItemUnSelectedIconColor(int sItemUnselectedIconColor) {
         mItemUnSelectedIconColor = sItemUnselectedIconColor;
         invalidate();
     }
@@ -1697,7 +1697,7 @@ public class Navify extends View {
     /**
      * Gets the size of the unselected icons in pixels.
      */
-    public float getItemUnselectedIconSize() {
+    public float getItemUnSelectedIconSize() {
         return mItemUnSelectedIconSize;
     }
 
@@ -1706,7 +1706,7 @@ public class Navify extends View {
      *
      * @param sItemUnSelectedIconSize Size in dp
      */
-    public void setItemUnselectedIconSize(float sItemUnSelectedIconSize) {
+    public void setItemUnSelectedIconSize(float sItemUnSelectedIconSize) {
         mItemUnSelectedIconSize = dpToPx(sItemUnSelectedIconSize);
         requestLayout();
         invalidate();

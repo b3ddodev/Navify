@@ -1,5 +1,6 @@
 package com.navifysample;
 
+
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
