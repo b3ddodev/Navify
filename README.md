@@ -113,9 +113,9 @@ Manuel Add Items :
 mNavify.ClearReloadItems();
 mNavify.setAddItem(ContextCompat.getDrawable(this,R.drawable.ic_preview_home),"Home");
 mNavify.setAddItem(ContextCompat.getDrawable(this,R.drawable.ic_preview_search),"Search");
-mNavify.setAddItem(ContextCompat.getDrawable(this,R.drawable.ic_preview_add),"Reaction");
-mNavify.setAddItem(ContextCompat.getDrawable(this,R.drawable.ic_preview_reaction),"Favorite");
-mNavify.setAddItem(ContextCompat.getDrawable(this,R.drawable.ic_preview_favorite),"Fire");
+mNavify.setAddItem(ContextCompat.getDrawable(this,R.drawable.ic_preview_reaction),"Reaction");
+mNavify.setAddItem(ContextCompat.getDrawable(this,R.drawable.ic_preview_favorite),"Favorite");
+mNavify.setAddItem(ContextCompat.getDrawable(this,R.drawable.ic_preview_fire),"Fire");
 (MAX 5 ITEMS)
 ```
 Listener :
