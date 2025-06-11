@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="home"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_preview_home"/>
+    <item
+        android:title="search"
+        app:showAsAction="ifRoom"
+
+        android:icon="@drawable/ic_preview_search"/>
+    <item
+        android:title="reaction"
+        app:showAsAction="ifRoom"
+
+        android:icon="@drawable/ic_preview_reaction"/>
+    <item
+        android:title="favorite"
+        app:showAsAction="ifRoom"
+
+        android:icon="@drawable/ic_preview_favorite"/>
+    <item
+        android:title="fire"
+        app:showAsAction="ifRoom"
+
+        android:icon="@drawable/ic_preview_whatshot"/>
+
+</menu>

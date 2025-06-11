@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom attributes for the Navify navigation component -->
+    <declare-styleable name="Navify">
+
+        <!-- Background color of the entire Navify bar -->
+        <attr name="mBackgroundColor" format="color" />
+
+        <!-- Elevation (Z-axis shadow) of the background bar -->
+        <attr name="mBackgroundElevation" format="dimension" />
+
+        <!-- Color of the circular highlight behind the selected item -->
+        <attr name="mItemCircleBackgroundColor" format="color" />
+
+        <!-- Elevation of the selected item circle (creates drop shadow) -->
+        <attr name="mItemCircleBackgroundElevation" format="dimension" />
+
+        <!-- Animation duration for moving the selection circle -->
+        <attr name="mItemCircleAnimationDuration" format="integer" />
+
+        <!-- Interpolator type for the circle animation -->
+        <attr name="mItemCircleAnimationInterpolator" format="enum">
+            <enum name="NAVIFY_LINEAR" value="0" />
+            <enum name="NAVIFY_ACCELERATE" value="1" />
+            <enum name="NAVIFY_DECELERATE" value="2" />
+            <enum name="NAVIFY_ACCELERATE_DECELERATE" value="3" />
+            <enum name="NAVIFY_OVERSHOOT" value="4" />
+            <enum name="NAVIFY_BOUNCE" value="5" />
+            <enum name="NAVIFY_NONE" value="6" />
+            <enum name="NAVIFY_ANTICIPATE" value="7" />
+            <enum name="NAVIFY_ANTICIPATE_OVERSHOOT" value="8" />
+            <enum name="NAVIFY_FAST_OUT_SLOW_IN" value="9" />
+        </attr>
+
+        <!-- Color of the icon when the item is selected -->
+        <attr name="mItemSelectedIconColor" format="color" />
+
+        <!-- Size of the selected item icon -->
+        <attr name="mItemSelectedIconSize" format="dimension" />
+
+        <!-- Color of the icon when the item is not selected -->
+        <attr name="mItemUnSelectedIconColor" format="color" />
+
+        <!-- Size of the unselected item icon -->
+        <attr name="mItemUnSelectedIconSize" format="dimension" />
+
+        <!-- Text color for selected item labels -->
+        <attr name="mItemTextSelectedColor" format="color" />
+
+        <!-- Text size for selected item labels -->
+        <attr name="mItemTextSelectedSize" format="dimension" />
+
+        <!-- Text color for unselected item labels -->
+        <attr name="mItemTextUnSelectedColor" format="color" />
+
+        <!-- Text size for unselected item labels -->
+        <attr name="mItemTextUnSelectedSize" format="dimension" />
+
+        <!-- Extra vertical spacing for selected item text -->
+        <attr name="mItemTextSelectedExtraSpace" format="dimension" />
+
+        <!-- Bold text style for item labels -->
+        <attr name="mItemTextBold" format="boolean" />
+
+        <!-- Whether to show labels in ALL CAPS -->
+        <attr name="mItemTextAllCaps" format="boolean" />
+
+        <!-- Font resource for item labels -->
+        <attr name="mItemTextChooseFont" format="reference" />
+
+        <!-- Determines label visibility behavior -->
+        <attr name="mItemLabelVisibilityMode" format="enum">
+            <enum name="NAVIFY_SELECTED" value="0"/>     <!-- Show labels only on selected item -->
+            <enum name="NAVIFY_LABELED" value="1"/>       <!-- Show labels on all items -->
+            <enum name="NAVIFY_UNLABELED" value="2"/>     <!-- Hide all labels -->
+        </attr>
+
+        <!-- Default selected index on start -->
+        <attr name="mItemSelectedIndex" format="integer" />
+
+        <!-- Menu resource to be inflated into the navigation items -->
+        <attr name="mMenuResource" format="reference" />
+
+        <!-- Enables haptic feedback on item selection -->
+        <attr name="mHapticEnabled" format="boolean" />
+
+        <!-- Forces RTL layout mode regardless of locale -->
+        <attr name="mForceRTL" format="boolean" />
+
+    </declare-styleable>
+</resources>
