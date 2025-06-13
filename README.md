@@ -210,7 +210,7 @@ Listener :
 
 
 ### Nav Animation Type  
-#### Nav animations you can adjust: `MervInterpolator`
+#### Nav animations you can adjust: `NavifyInterpolator`
 
 Type | Description  
 --------- | -----------  
